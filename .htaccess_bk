@@ -1,0 +1,6 @@
+
+# Insist on a password for this directory:
+AuthName "Access to this site is restricted, code 418. Check your mail or log in."
+AuthType Basic
+AuthUserFile /home/mufudely/.htpasswd/public_html/idaca/passwd
+Require valid-user
